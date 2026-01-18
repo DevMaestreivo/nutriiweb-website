@@ -629,6 +629,7 @@ border-radius: 27px;
 .navbar-logo {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-logo img {
@@ -2512,4 +2513,10 @@ html {
 @keyframes pulseRed {
     0%,100% { transform: scale(1); }
     50% { transform: scale(1.05); }
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* هنا بيتحكم في توزيع العناصر */
+    gap: 1.5rem;
 }
